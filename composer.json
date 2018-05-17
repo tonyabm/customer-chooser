@@ -1,22 +1,15 @@
 {
     "name": "tony-blog/magento2-customer-selector",
-    "description": "magento2 customer selector module",
+    "description": "Magento 2 Customer Selector Module",
     "type": "magento2-module",
-    "lincese" : "Apache-2.0",
-    "require-dev": {
+    "require": {
         "php": "^7.0"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "tony.liu",
             "email": "tony.liu@abmgood.com"
         }
-    ],
-    "autoload": {
-       	 "files": ["registration.php"],
-	 "psr-4": { "Loyalty\\PointsMall\\": "" }
-    },
-    "require": {
-    	"tony-blog/magento2-customer-selector" : "dev-master@dev"
-    }
+    ]
 }
