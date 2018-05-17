@@ -1,5 +1,18 @@
 # Magento2 Module Customer Selector In Ui Component Form
 
+## How to get it
+
+- Use Composer
+```shell
+composer require tony-blog/magento2-customer-selector
+```
+
+- Use git
+
+```shell
+git clone https://code.aliyun.com/tony.liu/customer-chooser.git
+```
+
 ## How to use it
 
 - **Multiselect**
