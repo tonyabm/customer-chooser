@@ -2,7 +2,11 @@
     "name": "tony-blog/magento2-customer-selector",
     "description": "magento2 customer selector module",
     "type": "magento2-module",
-    "lincese" : "LINCESE.txt",
+    "lincese" : [
+ 	"OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
     "require-dev": {
         "php": "^7.0"
     },
@@ -13,7 +17,8 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Loyalty\\PointsMall\\": "" }
+       	 "files": ["registration.php"],
+	 "psr-4": { "Loyalty\\PointsMall\\": "" }
     },
     "require": {}
 }
