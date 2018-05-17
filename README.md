@@ -7,3 +7,5 @@
 ```angular2html
 
 ```
+
+https://github.com/experius/Magento-2-Module-Experius-Form-Select2
