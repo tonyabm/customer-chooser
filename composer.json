@@ -1,0 +1,23 @@
+{
+  "name": "tonyBlog/magento2-customer-selector",
+  "description": "Magento2 Customer Selector Module",
+  "homepage": "https://code.aliyun.com/tony.liu/customer-chooser.git",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Tony Liu",
+      "email": "2516126545@qq.com"
+    }
+  ],
+  "support": {
+    "issues": "https://code.aliyun.com/tony.liu/customer-chooser/issues/1"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Loyalty\\PointsMall\\": ""
+    }
+  }
+}
