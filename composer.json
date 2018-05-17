@@ -6,7 +6,6 @@
  	"OSL-3.0",
         "AFL-3.0"
     ],
-    "minimum-stability": "dev",
     "require-dev": {
         "php": "^7.0"
     },
@@ -21,6 +20,6 @@
 	 "psr-4": { "Loyalty\\PointsMall\\": "" }
     },
     "require": {
-    	"tony-blog/magento2-customer-selector" : "dev"
+    	"tony-blog/magento2-customer-selector" : "dev-master@dev"
     }
 }
