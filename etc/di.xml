@@ -1,0 +1,17 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <virtualType name="Loyalty\PointsMall\Model\Virtual\CustomerSearch" type="Loyalty\PointsMall\Model\Customer\Search">
+        <arguments>
+            <argument name="searchData" xsi:type="array">
+                <item name="modelCollectionClass" xsi:type="string">Magento\Customer\Model\ResourceModel\Customer\Collection</item>
+                <item name="modelClass" xsi:type="string">Magento\Customer\Model\Customer</item>
+                <item name="searchFields" xsi:type="array">
+                    <item name="firstname" xsi:type="string">firstname</item>
+                    <item name="lastname" xsi:type="string">lastname</item>
+                </item>
+                <item name="modelType" xsi:type="string">eav</item>
+                <item name="modelKey" xsi:type="string">entity_id</item>
+                <item name="sortByAttribute" xsi:type="string">name</item>
+            </argument>
+        </arguments>
+    </virtualType>
+</config>

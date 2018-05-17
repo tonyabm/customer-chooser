@@ -1,4 +1,9 @@
-Magento2 Module Customer Selector In Ui Component Form
+# Magento2 Module Customer Selector In Ui Component Form
 
-how to use
+## How to use it
 
+- **Multiselect**
+
+```angular2html
+
+```
