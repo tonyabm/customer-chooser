@@ -35,6 +35,26 @@
 - **di.xml**
 
 ```xml
-
+    <virtualType name="Loyalty\PointsMall\Model\Virtual\CustomerSearch" type="Loyalty\PointsMall\Model\Customer\Search">
+        <arguments>
+            <argument name="searchData" xsi:type="array">
+                <item name="modelCollectionClass" xsi:type="string">Magento\Customer\Model\ResourceModel\Customer\Collection</item>
+                <item name="modelClass" xsi:type="string">Magento\Customer\Model\Customer</item>
+                <item name="searchFields" xsi:type="array">
+                    <item name="firstname" xsi:type="string">firstname</item>
+                    <item name="lastname" xsi:type="string">lastname</item>
+                </item>
+                <item name="modelType" xsi:type="string">eav</item>
+                <item name="modelKey" xsi:type="string">entity_id</item>
+                <item name="sortByAttribute" xsi:type="string">name</item>
+            </argument>
+        </arguments>
+    </virtualType>
 ```
+![Alt text](media/customer-seletor-one.png?raw=true "customer seletor")
+![Alt text](media/customer-seletor-two.png?raw=true "customer seletor")
+
+## More Information, Please Subscribe My Wechat Public Platform Or View My Blog : https://www.abmbio.xin
+
+![Alt text](https://www.abmbio.xin/uploads/onlineUpload/20180117_81914.jpg?raw=true "Tony Wechat")
 
