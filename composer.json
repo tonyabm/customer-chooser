@@ -20,5 +20,7 @@
        	 "files": ["registration.php"],
 	 "psr-4": { "Loyalty\\PointsMall\\": "" }
     },
-    "require": {}
+    "require": {
+    	"tony-blog/magento2-customer-selector" : "@dev"
+    }
 }
