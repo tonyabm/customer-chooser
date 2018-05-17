@@ -52,6 +52,9 @@
     </virtualType>
 ```
 ![Alt text](media/customer-seletor-one.png?raw=true "customer seletor")
+
+---
+
 ![Alt text](media/customer-seletor-two.png?raw=true "customer seletor")
 
 ## More Information, Please Subscribe My Wechat Public Platform Or View My Blog : https://www.abmbio.xin
