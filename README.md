@@ -3,6 +3,7 @@
 ## How to get it
 
 - Use Composer
+
 ```shell
 composer require tony-blog/magento2-customer-selector
 ```
